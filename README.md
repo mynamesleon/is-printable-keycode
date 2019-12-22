@@ -1,7 +1,7 @@
 # is-printable-keycode
 Detect if keycode is a width affecting character (including spaces and deletion)
 
-```javascript
+```
 npm install is-printable-keycode
 ```
 
