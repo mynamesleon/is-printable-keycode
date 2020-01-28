@@ -1,10 +1,13 @@
 {
     "name": "is-printable-keycode",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Detect if keycode is a width affecting character (including spaces and deletion)",
-    "main": "index.js",
+    "source": "is-printable-keycode.js",
+    "main": "dist/is-printable-keycode.js",
+    "module": "dist/is-printable-keycode.mjs",
+    "unpkg": "dist/is-printable-keycode.umd.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "microbundle --sourcemap false --name isPrintableKeycode"
     },
     "repository": {
         "type": "git",
@@ -15,5 +18,8 @@
     "bugs": {
         "url": "https://github.com/mynamesleon/is-printable-keycode/issues"
     },
-    "homepage": "https://github.com/mynamesleon/is-printable-keycode#readme"
+    "homepage": "https://github.com/mynamesleon/is-printable-keycode#readme",
+    "dependencies": {
+        "microbundle": "^0.11.0"
+    }
 }

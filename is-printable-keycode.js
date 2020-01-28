@@ -3,7 +3,7 @@
  * @param {Number} keyCode
  * @returns {Boolean}
  */
-export default function(keyCode) {
+export default function isPrintableKeycode(keyCode) {
     return (
         (keyCode >= 48 && keyCode <= 57) || // 0-9
         (keyCode >= 65 && keyCode <= 90) || // a-z
