@@ -9,6 +9,9 @@
     "scripts": {
         "build": "microbundle --sourcemap false --name isPrintableKeycode"
     },
+    "files": [
+        "dist"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mynamesleon/is-printable-keycode.git"
